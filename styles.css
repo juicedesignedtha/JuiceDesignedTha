@@ -2,8 +2,8 @@
 /* CSS Document */
 body {width:1000px; background-color:maroon;  height: 7000px; margin:0 auto;}
 
-	.left {width:48%; Float:Left;}
+	.left {width:48%; Float:left;}
 	
-	.right{width:48%; Float:right;}
+	.right{width:48%; Float:left;}
 	
-	footer{	height:100px;background-color: darkgray}
+	footer{	height:100px;background-color: darkgray; padding: 10px; clear:both;}

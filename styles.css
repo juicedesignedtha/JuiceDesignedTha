@@ -1,12 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
-body{width:1000px; background-color:maroon;  height:7000px; margin:0 auto;"}
+body {width:1000px; background-color:maroon;  height: 7000px; margin:0 auto;}
 
-	class=Left{
-		width:48%;
-		Float:Left
-	}
+	.left {width:48%; Float:Left;}
 	
-	Right{
-		width:48%;
-		Float:right
+	.right{width:48%; Float:right;}
+	
+	footer{	height:100px;background-color: darkgray}

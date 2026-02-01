@@ -3,7 +3,9 @@
 body {width:1000px; background-color:maroon;  height: 7000px; margin:0 auto;}
 
 	.left {width:48%; Float:left;}
+#photo1 {width:400px; padding:10px; }
 	
+#photo2 {visibility: none}
 	.right{width:48%; Float:left;}
 	
 	footer{	height:100px;background-color: darkgray; padding: 10px; clear:both;}

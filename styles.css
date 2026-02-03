@@ -2,12 +2,12 @@
 /* CSS Document */
 .divs {display: inline}
 body {width:1000px; background-color:maroon;  height: 7000px; margin:0 auto;}
-header>p {text-align: center; color: white; font-size:50px;}
+header>p {text-align: center; ; font-size:50px;}
 nav {background-color: black; width: 100px; margin:0 auto }
 nav>p{color:white; text-align: center; }
 	.left {width:48%; Float:left; }
 
-article > p {background-color:gray; text-align: center;}
+article > p {background-color:gray; text-align: center;margin-right: 10px}
 #photo1 {width:400px; padding:45px; }
 	
 #photo2 {visibility: hidden}
@@ -15,7 +15,22 @@ article > p {background-color:gray; text-align: center;}
 	
 	footer{	height:100px;background-color: darkgray; padding: 10px; clear:both;}
 .pirata-one-regular {
-  font-family: "Pirata One", system-ui;
+  font-family: "Pirata One", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed","sans-serif";
   font-weight: 400;
   font-style: normal;
+	font-color: black; 
+	font-size: 5em;
+}
+a:hover{
+	color: maroon;
+	text-decoration: none;
+}
+
+a{
+	color: white;
+}
+
+a:active{
+	color: whitesmoke;
+	text-decoration: none;
 }

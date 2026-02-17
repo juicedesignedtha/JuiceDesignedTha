@@ -35,5 +35,8 @@ a:active{
 	text-decoration: none;
 }
 .callme{
+	width: 300px;
 	margin: 0 auto;
+	align-content: center;
+	
 }

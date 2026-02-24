@@ -41,10 +41,11 @@ a:active{
 }
 
 .flex-box{
-	matrgin: 0 auto;
+
 	display:flex;
 	background-color: grey;
 	flex-direction: column;
-	align-items: stretch;
+	align-items:baseline;
 	heights:120px;
+	border-left-width: 20px;
 }

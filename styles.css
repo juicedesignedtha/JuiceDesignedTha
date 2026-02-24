@@ -9,7 +9,7 @@ nav>p{color:white; text-align: center; }
 
 article > p {background-color:gray; text-align: center;margin-right: 10px}
 #photo1 {width:400px; padding:45px; }
-	.right{width:48%; Float:left; }
+	.right{width:48%; align-content:right;}
 	
 	footer{	height:100px;background-color: darkgray; padding: 10px; clear:both;}
 .pirata-one-regular {
@@ -45,9 +45,10 @@ a:active{
 	display:flex;
 	background-color: grey;
 	flex-direction: column;
-	align-items:baseline;
-	heights:120px;
-	border-left-width: 20px;
+	align-items:center;
+	heights:20px;
+	width: 600px;
+	
 }
 
 .selfies{
@@ -55,9 +56,9 @@ a:active{
 	display:flex;
 	background-color: grey;
 	flex-direction: row;
-	align-items:baseline;
-	heights:120px;
-	border-left-width: 20px;
+	align-items:center;
+	heights:20px;
+	
 }
 
 

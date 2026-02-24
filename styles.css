@@ -41,3 +41,11 @@ a:active{
 	align-content: center;
 	
 }
+
+.flex-box{
+	display:flex;
+	background-color: grey;
+	flex-direction: column;
+	align-items: stretch;
+	heights:120px;
+}

@@ -49,3 +49,19 @@ a:active{
 	heights:120px;
 	border-left-width: 20px;
 }
+
+.selfies{
+
+	display:flex;
+	background-color: grey;
+	flex-direction: row;
+	align-items:baseline;
+	heights:120px;
+	border-left-width: 20px;
+}
+
+
+
+
+
+

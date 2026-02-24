@@ -58,8 +58,13 @@ a:active{
 	flex-direction: row;
 	align-items:center;
 	heights:20px;
+	padding: 10px;
 	
 }
+
+.ui-widget-overlay {
+	background: #670406;
+	opacity: 100;}
 
 
 

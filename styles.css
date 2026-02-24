@@ -9,8 +9,6 @@ nav>p{color:white; text-align: center; }
 
 article > p {background-color:gray; text-align: center;margin-right: 10px}
 #photo1 {width:400px; padding:45px; }
-	
-#photo2 {visibility: hidden}
 	.right{width:48%; Float:left; }
 	
 	footer{	height:100px;background-color: darkgray; padding: 10px; clear:both;}
@@ -43,6 +41,7 @@ a:active{
 }
 
 .flex-box{
+	matrgin: 0 auto;
 	display:flex;
 	background-color: grey;
 	flex-direction: column;

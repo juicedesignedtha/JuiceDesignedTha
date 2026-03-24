@@ -176,15 +176,18 @@ a:active{
     
     .products-row.vertical .product {
         flex: 1 1 45%;
+		flex-direction: column;
     }
     
     .products-row .product {
         flex: 1 1 45%;
+		flex-direction: column;
     }
 }
 
 @media (max-width: 480px) {
     .products-row .product {
         flex: 1 1 100%;
+		flex-direction: column;
     }
 }

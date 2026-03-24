@@ -49,9 +49,8 @@ body {
 .nav>p{color:white; text-align: center; }
 	.left {width:48%; float:right; }
 
-article > p {background-color:gray; text-align: center;margin-right: 10px}
-#photo1 {width:400px; padding:45px; }
-	.right{width:48%; float:left;}
+article > p {background-color:gray; }
+
 	
 .footer
 	{background-color: darkgray;
@@ -60,7 +59,7 @@ article > p {background-color:gray; text-align: center;margin-right: 10px}
   font-family: "Pirata One", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed","sans-serif";
   font-weight: 400;
   font-style: normal;
-	font-color: black; 
+	font-color: maroon; 
 	font-size: 5em;
 }
 a:hover{
@@ -77,7 +76,7 @@ a:active{
 	text-decoration: none;
 }
 .callme{
-	display:inline-flex;
+	display:flex;
 	width: 300px;
 	margin: 0 auto;
 	align-content: center;

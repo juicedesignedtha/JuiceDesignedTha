@@ -50,7 +50,8 @@ body {
 	.left {width:48%; float:right; }
 
 article > p {background-color:gray; }
-
+#photo1 {width:400px; padding:45px; }
+	.right{width:48%; float:left;}
 	
 .footer
 	{background-color: darkgray;

@@ -153,8 +153,8 @@ a:active{
 }
 
 .main-image {
-    flex: 3 1 400px;
-    min-height: 300px;
+    flex: 3 1;
+    min-height: 500px;
     background: #ddd;
     display: flex;
     align-items: center;

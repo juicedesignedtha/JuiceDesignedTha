@@ -56,7 +56,9 @@ body {
 }
 
 .logo {
-	max-height: 100px
+	display: inline-flex;
+	max-height: 150px; 
+	max-width: 150px;
 }
 
 .nav-links {

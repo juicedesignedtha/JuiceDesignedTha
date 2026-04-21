@@ -161,13 +161,20 @@ body {
     display: inline-flex;
     flex-wrap: wrap;
 }
-	
-.left {width:75%; float:right; }
 
-article > p {background-color:#1e1e1e; }
-#photo1 { padding:10px; }
-	.right{width: 25%; float:left;}
+.photo { 
+	display: flex;
+	padding:10px;
+    background-color: none;
+}
 	
+.text-box  { 
+	display: flex;
+	padding:10px;
+    background-color: #1e1e1e;
+}
+
+
 .footer
 	{background-color: darkgray;
 }
@@ -208,7 +215,6 @@ a:active{
     width: 90%;
     margin: 1rem 0;
     gap: 1rem;
-	background-color:#375b5b5 
 }
 
 .photo, .text-box {

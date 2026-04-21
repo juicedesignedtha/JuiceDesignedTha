@@ -179,7 +179,6 @@ a:active{
 .drag-text-box {
     flex: 1 1 200px;
     min-height: 100px;
-    background: #375b5b;
     display: flex;
     align-items: center;
     justify-content: center;

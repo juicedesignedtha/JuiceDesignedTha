@@ -51,7 +51,7 @@ body {
 
 article > p {background-color:gray; }
 #photo1 { padding:10px; }
-	.right{width:48%; float:left;}
+	.right{float:left;}
 	
 .footer
 	{background-color: darkgray;

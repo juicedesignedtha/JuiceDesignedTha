@@ -3,6 +3,8 @@
 <head>
 	 <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
+	<link rel="alternate" href="contactme.html">
+	<link rel="jave" href="script.js">
   <style>
   #draggable { width: 150px; height: 150px;}
   </style>
@@ -29,15 +31,28 @@
 	
 <body>
 		 <header class="header" style="color: #30b0b0">
-        <h1>JUICE'S MODELING SITE</h1>
+        <h1>JUICE'S MODELING</h1>
     </header>				   
+
+    <nav class="navbar">
+      <div class="logo"><img src="images/logo.png" alt="logo"/></div>
+      <ul class="nav-links">
+        <li><a href="index.html#photo1">About</a></li>
+        <li><a href="index.html#products-row">Headshots</a></li>
+		<li><a href="index.html#main-image-section">Stats</a></li>
+        <li><a href="index.html#products-row vertical">Bodyshots</a></li>
+        <li><a href="contactme.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  <script src="script.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 	
-<nav class="nav">
-	<h3><a href="contactme.html">Contact Me</a></h3>
-	<h3><a href="index.html#photo1">About Me</a></h3>
-	<h3><a href="products-row">Headshots</a></h3>
-	<h3><a href="products-row vertical">Bodyshots</a></h3>
-	</nav>
+	
 		 <section class="top-section">
         <div class="photo"><img id="photo1" src="images/babyphoto.png" alt= "designer baby"></div>
         <div class="text-box">
@@ -46,7 +61,7 @@
     </section>
 	
 		
-		  <section class="products-row">
+		  <section class="products-row" id="products-row">
 		<div class="product"><img src="images/headshot5.png" alt="headshot 5"/></div>
 		<div class="product"><img src="images/headshot1.png" alt="headshot 1"/></div>
         <div class="product"><img src="images/headshot2.png" alt="headshot 2"/></div>
@@ -81,13 +96,13 @@
         <div class="product"><img src= "images/headshot20.png" alt="headshot 20"/></div>
     </section>
 
-	 <section class="main-image-section">
+	 <section class="main-image-section" id="main-image-section">
        <div class="main-image" style="background: url('images/rick.jpg')">
 		 </div>
         <div><img src="images/logo.png" alt="logo" id="draggable" class="drag"/></div>
     </section>
 	
-	 <section class="products-row vertical">
+	 <section class="products-row vertical" id="products-row vertical">
         <div class="product"><img src="images/fullbody1.png" alt="fullbody 1"/></div>
 		<div class="product"><img src="images/fullbody2.png" alt="fullbody 2"/></div>
         <div class="product"><img src="images/fullbody3.png" alt="fullbody 3"/></div>

@@ -257,7 +257,7 @@ a:active{
 .main-image-section {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     margin: 1rem 0;
     gap: 1rem;
 }
@@ -271,7 +271,7 @@ a:active{
 }
 
 .main-image {
-    flex: 3 1;
+	flex: 1 3;
     min-height: 500px;
     display: flex;
     align-items: center;

@@ -38,6 +38,10 @@ body {
 	 font-family: "Alfa Slab One", serif;
 }
 
+.header background{
+	opacity: 50%;
+}
+
 .header >p {
 	color: #30b0b0;
 }

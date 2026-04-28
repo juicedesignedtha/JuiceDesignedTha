@@ -41,11 +41,38 @@ body {
 }
 
 
+.cont {
+	background: none;
+	text-align: center;
+}
+
+.cont >h3 {
+	color: #30b0b0;
+	 font-family: "Alfa Slab One", serif;
+}
+
+.frame {
+    width: 100%;
+    background: #1e1e1e;
+    text-align: center;
+    font-size: 1rem;
+    padding: 25px;
+	align-self: center
+	 
+}
+
+.frame label{
+	color: #30b0b0;
+	font-family: "Saira", sans-serif;
+}
+
+
+
 /* Navbar styling */
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   padding: 20px 40px;
   width: 80%;
   top: 0;
@@ -53,6 +80,17 @@ body {
   z-index: 1000;
 font-family: "Saira", sans-serif;
 }
+
+.navbar2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  background-color: #1e1e1e;
+font-family: "Saira", sans-serif;
+}
+
+
 
 .logo {
 	display: inline-flex;
@@ -125,7 +163,6 @@ font-family: "Saira", sans-serif;
 /* Navigation */
 .nav {
     width: 100%;
-    background: #000000;
 }
 
 .nav ul {
@@ -139,7 +176,7 @@ font-family: "Saira", sans-serif;
     margin: 0 1rem;
     cursor: pointer;
 }
-.nav {background-color: black; width: 100px; margin:0 auto }
+.nav { margin:0 auto; }
 
 .nav>p{
 	color:#3a8585; 
@@ -147,6 +184,10 @@ font-family: "Saira", sans-serif;
     display: inline-flex;
     flex-wrap: wrap;
 }
+
+
+
+
 .photo { 
 	display: flex;
 	padding:10px;
